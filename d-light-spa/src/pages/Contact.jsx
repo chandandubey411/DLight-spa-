@@ -14,11 +14,11 @@ const Contact = () => {
       />
       
       {/* Contact Info Grid */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container-custom">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h4 className="text-secondary font-medium tracking-wider mb-2 text-sm uppercase">Get In Touch</h4>
-            <h2 className="text-4xl font-bold text-gray-900">We're Here For You</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">We're Here For You</h2>
             <p className="text-gray-500 mt-4">Have questions or want to book a session? Reach out through any of the channels below — we respond promptly!</p>
           </div>
 
@@ -70,7 +70,7 @@ const Contact = () => {
       <Appointment />
 
       {/* Map Section */}
-      <section className="h-[400px] w-full relative">
+      <section className="h-[280px] md:h-[400px] w-full relative">
         <iframe 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.204561278857!2d77.28854895!3d28.63660525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb5b03513eb1%3A0x7d6a5c2d33dd5ea!2sPreet%20Vihar%2C%20New%20Delhi%2C%20Delhi%20110092!5e0!3m2!1sen!2sin!4v1714201089209!5m2!1sen!2sin" 
           width="100%" 

@@ -18,11 +18,11 @@ const ServicesPage = () => {
       <Services />
 
       {/* Special Packages Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50 overflow-hidden">
         <div className="container-custom">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h4 className="text-secondary font-medium tracking-wider mb-2">EXCLUSIVE OFFERS</h4>
-            <h2 className="text-4xl font-bold text-gray-900">Curated Spa Packages</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">Curated Spa Packages</h2>
             <p className="text-gray-600 mt-4">Indulge in our carefully crafted packages designed for maximum relaxation and rejuvenation.</p>
           </div>
 
@@ -50,7 +50,7 @@ const ServicesPage = () => {
                 popular: false
               }
             ].map((pkg, index) => (
-              <div key={index} className={`bg-white rounded-3xl p-8 shadow-xl relative flex flex-col ${pkg.popular ? 'border-2 border-primary transform md:-translate-y-4' : 'border border-gray-100'}`}>
+              <div key={index} className={`bg-white rounded-3xl p-6 md:p-8 shadow-xl relative flex flex-col ${pkg.popular ? 'border-2 border-primary md:-translate-y-4' : 'border border-gray-100'}`}>
                 {pkg.popular && (
                   <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary text-white px-4 py-1 rounded-full text-sm font-bold shadow-lg">
                     Most Popular
@@ -80,12 +80,12 @@ const ServicesPage = () => {
       </section>
 
       {/* Spa Etiquette / FAQ Section */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white overflow-hidden">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h4 className="text-secondary font-medium tracking-wider mb-2">WHAT TO EXPECT</h4>
-              <h2 className="text-4xl font-bold text-gray-900 mb-8">Spa Etiquette & Information</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6 md:mb-8">Spa Etiquette & Information</h2>
               
               <div className="space-y-6">
                 {[
@@ -119,7 +119,7 @@ const ServicesPage = () => {
               <img 
                 src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
                 alt="Spa Relaxation" 
-                className="rounded-3xl relative z-10 w-full object-cover h-[500px] shadow-xl"
+                className="rounded-3xl relative z-10 w-full object-cover h-[300px] md:h-[500px] shadow-xl"
               />
             </div>
           </div>
