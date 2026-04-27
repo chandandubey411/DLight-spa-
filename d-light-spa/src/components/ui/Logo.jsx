@@ -111,7 +111,7 @@ const Logo = ({ size = 'md', dark = false }) => {
             textTransform: 'uppercase',
           }}
         >
-          Spa &amp; Wellness
+          Spa
         </span>
       </div>
     </div>
