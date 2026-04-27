@@ -5,7 +5,7 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 
 const Appointment = () => {
   return (
-    <section id="appointment-form" className="py-20 bg-gray-50 relative overflow-hidden">
+    <section id="appointment-form" className="py-12 md:py-20 bg-gray-50 relative overflow-hidden">
       {/* Decorative blobs */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-pink-100 rounded-full mix-blend-multiply filter blur-3xl opacity-40 -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-40 translate-x-1/2 translate-y-1/2 pointer-events-none"></div>
@@ -17,11 +17,11 @@ const Appointment = () => {
           <div>
             <div className="mb-8">
               <span className="text-pink-500 font-bold tracking-wider text-sm uppercase mb-2 block">Get in Touch</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Book Appointment</h2>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">Book Appointment</h2>
               <p className="text-gray-500">Fill in the form below and our team will get back to you shortly to confirm your booking.</p>
             </div>
 
-            <div className="bg-white p-8 rounded-3xl border-2 border-gray-200 shadow-lg">
+            <div className="bg-white p-5 sm:p-8 rounded-3xl border-2 border-gray-200 shadow-lg">
               <form className="space-y-5">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <div>
@@ -121,9 +121,9 @@ const Appointment = () => {
           </div>
           
           {/* Right Info Card */}
-          <div className="lg:pl-8 pt-8 lg:pt-0 space-y-6">
+          <div className="lg:pl-8 pt-6 lg:pt-0 space-y-6">
             {/* Hours Card */}
-            <div className="bg-white rounded-3xl p-8 shadow-lg border-2 border-gray-200 relative overflow-hidden">
+            <div className="bg-white rounded-3xl p-6 md:p-8 shadow-lg border-2 border-gray-200 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-pink-50 rounded-full opacity-60 transform translate-x-1/2 -translate-y-1/2"></div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6 relative z-10">Opening Hours</h3>
               <div className="space-y-4 relative z-10">
@@ -136,7 +136,7 @@ const Appointment = () => {
             </div>
 
             {/* Contact Quick Info */}
-            <div className="bg-white rounded-3xl p-8 shadow-lg border-2 border-gray-200 space-y-5">
+            <div className="bg-white rounded-3xl p-6 md:p-8 shadow-lg border-2 border-gray-200 space-y-5">
               <h3 className="text-2xl font-bold text-gray-900">Quick Contact</h3>
               <div className="flex items-start gap-4">
                 <div className="w-11 h-11 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">

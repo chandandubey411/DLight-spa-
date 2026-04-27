@@ -24,7 +24,7 @@ const Hero = ({ title = "Service", breadcrumb = "Service", bgImage, description 
   }, [isHome]);
 
   return (
-    <div className={`relative w-full flex items-center justify-start overflow-hidden bg-white ${isHome ? 'min-h-screen' : 'h-[450px] mt-20'}`}>
+    <div className={`relative w-full flex items-center justify-start overflow-hidden bg-white ${isHome ? 'min-h-screen' : 'min-h-[280px] sm:min-h-[350px] md:h-[450px] mt-16 md:mt-20'}`}>
       <div className="absolute inset-0 z-0 bg-black">
         {isHome ? (
           heroImages.map((img, index) => (
@@ -48,13 +48,13 @@ const Hero = ({ title = "Service", breadcrumb = "Service", bgImage, description 
         <div className="absolute inset-0 bg-pink-50/20 mix-blend-multiply"></div>
       </div>
       
-      <div className={`container-custom relative z-10 w-full pl-8 md:pl-16 ${isHome ? 'pt-20' : ''}`}>
-        <h1 className={`${isHome ? 'text-6xl md:text-8xl' : 'text-5xl md:text-6xl'} font-bold text-gray-900 mb-6 transition-all duration-500`}>
+      <div className={`container-custom relative z-10 ${isHome ? 'pt-24 sm:pt-28 md:pt-32' : 'py-10 sm:py-12'}`}>
+        <h1 className={`${isHome ? 'text-4xl sm:text-5xl md:text-7xl lg:text-8xl' : 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl'} font-bold text-gray-900 mb-4 md:mb-6 transition-all duration-500`}>
           {title}
         </h1>
         
         {description && (
-          <p className="text-gray-700 text-lg md:text-xl max-w-2xl font-medium leading-relaxed">
+          <p className="text-gray-700 text-base md:text-lg lg:text-xl max-w-xl md:max-w-2xl font-medium leading-relaxed">
             {description}
           </p>
         )}

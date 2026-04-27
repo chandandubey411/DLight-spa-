@@ -4,9 +4,9 @@ import Logo from '../ui/Logo';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#222222] text-gray-300 pt-20 pb-10">
+    <footer className="bg-[#222222] text-gray-300 pt-10 md:pt-20 pb-10">
       <div className="container-custom">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-10 md:mb-16">
           
           {/* Brand Column */}
           <div>
@@ -80,21 +80,21 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <p>Copyright © {new Date().getFullYear()} <span className="text-primary font-medium">Delight Spa & Wellness</span>. All rights reserved.</p>
+        <div className="border-t border-gray-800 pt-8 flex flex-col gap-6 text-sm">
+          <p className="text-center md:text-left">Copyright © {new Date().getFullYear()} <span className="text-primary font-medium">Delight Spa & Wellness</span>. All rights reserved.</p>
           
-          <div className="flex gap-8">
+          <div className="flex flex-wrap justify-center md:justify-end gap-6">
             <div className="flex items-center gap-2">
-              <Mail className="text-primary" size={18} />
+              <Mail className="text-primary flex-shrink-0" size={18} />
               <div>
-                <p className="font-semibold text-white">ocnwellness@gmail.com</p>
+                <p className="font-semibold text-white text-xs sm:text-sm">ocnwellness@gmail.com</p>
                 <p className="text-xs text-gray-500">Our Email</p>
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <Phone className="text-primary" size={18} />
+              <Phone className="text-primary flex-shrink-0" size={18} />
               <div>
-                <p className="font-semibold text-white">+91 85888 98488</p>
+                <p className="font-semibold text-white text-xs sm:text-sm">+91 85888 98488</p>
                 <p className="text-xs text-gray-500">Call Now</p>
               </div>
             </div>

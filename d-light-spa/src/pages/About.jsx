@@ -14,19 +14,19 @@ const About = () => {
       />
       
       {/* Our Story Section */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <div className="rounded-2xl overflow-hidden shadow-2xl min-h-[250px] sm:min-h-[320px]">
               <img 
                 src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
                 alt="Spa Interior" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover min-h-[250px] sm:min-h-[350px] md:min-h-full"
               />
             </div>
             <div>
               <h4 className="text-secondary font-medium tracking-wider mb-2">OUR STORY</h4>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">A Sanctuary of Serenity Since 2019</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-gray-900">A Sanctuary of Serenity Since 2019</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Founded with a vision to create an oasis of tranquility in the heart of the bustling city, Delight Spa & Wellness has been a premier destination for luxury wellness. We believe that true beauty and health emerge when the body, mind, and spirit are in perfect harmony.
               </p>
@@ -60,7 +60,7 @@ const About = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container-custom">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h4 className="text-secondary font-medium tracking-wider mb-2">WHY CHOOSE US</h4>
@@ -103,13 +103,13 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary relative overflow-hidden">
+      <section className="py-12 md:py-20 bg-primary relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 right-0 w-64 h-64 bg-white rounded-full mix-blend-overlay filter blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-white rounded-full mix-blend-overlay filter blur-3xl"></div>
         </div>
         <div className="container-custom relative z-10 text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">Ready to Rejuvenate Your Body and Soul?</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 md:mb-6">Ready to Rejuvenate Your Body and Soul?</h2>
           <p className="text-white/80 max-w-2xl mx-auto mb-10 text-lg">
             Take the first step towards total relaxation. Book your appointment today and let us pamper you with our luxurious treatments.
           </p>
