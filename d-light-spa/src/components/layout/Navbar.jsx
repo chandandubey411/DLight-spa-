@@ -47,7 +47,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
           <Flower2 className="text-primary group-hover:rotate-180 transition-transform duration-700" size={32} />
-          <span className="text-2xl font-serif font-bold text-gray-900 tracking-tight">Fallspa<span className="text-primary">.</span></span>
+          <span className="text-2xl font-serif font-bold text-gray-900 tracking-tight">Delight Spa<span className="text-primary">.</span></span>
         </Link>
 
         {/* Desktop Links */}

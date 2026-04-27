@@ -12,23 +12,16 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center gap-2 mb-6">
               <Flower2 className="text-primary" size={32} />
-              <span className="text-2xl font-serif font-bold text-white tracking-tight">Fallspa<span className="text-primary">.</span></span>
+              <span className="text-2xl font-serif font-bold text-white tracking-tight">Delight Spa<span className="text-primary">.</span></span>
             </Link>
             <p className="text-sm leading-relaxed mb-6">
-              Mauris non nisl semper, lacinia neque in, dapibus leo. Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique eros. Quisque vitae metus.
+              A premier destination in Preet Vihar for luxury wellness and relaxation. We provide holistic, rejuvenating treatments using only the finest natural products.
             </p>
             <div className="flex items-start gap-4 mb-4">
               <Clock className="text-primary mt-1" size={20} />
               <div>
-                <p className="text-sm font-semibold text-white">Monday - Saturday:</p>
-                <p className="text-sm">9:00am - 10:00pm</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <Clock className="text-primary mt-1" size={20} />
-              <div>
-                <p className="text-sm font-semibold text-white">Sunday:</p>
-                <p className="text-sm">9:00am - 5:00pm</p>
+                <p className="text-sm font-semibold text-white">Monday - Sunday:</p>
+                <p className="text-sm">9:30am - 9:45pm</p>
               </div>
             </div>
           </div>
@@ -50,12 +43,12 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-white mb-6">Our Services</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link to="/services" className="hover:text-primary transition-colors">Facials</Link></li>
-              <li><Link to="/services" className="hover:text-primary transition-colors">Body Treatments</Link></li>
-              <li><Link to="/services" className="hover:text-primary transition-colors">Mineral Baths</Link></li>
-              <li><Link to="/services" className="hover:text-primary transition-colors">Waxing</Link></li>
-              <li><Link to="/services" className="hover:text-primary transition-colors">Massage</Link></li>
-              <li><Link to="/services" className="hover:text-primary transition-colors">Geothermal Spa</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Premium Body Spa</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Deep Tissue Therapy</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Thai Body Massage</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Lulur Treatment</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Reflexo Therapy</Link></li>
+              <li><Link to="/services" className="hover:text-primary transition-colors">Hot Towel Massage</Link></li>
             </ul>
           </div>
 
@@ -89,20 +82,20 @@ const Footer = () => {
 
         {/* Bottom Footer */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <p>Copyright © {new Date().getFullYear()} <span className="text-primary font-medium">Fallspa</span>. All rights reserved.</p>
+          <p>Copyright © {new Date().getFullYear()} <span className="text-primary font-medium">Delight Spa & Wellness</span>. All rights reserved.</p>
           
           <div className="flex gap-8">
             <div className="flex items-center gap-2">
               <Mail className="text-primary" size={18} />
               <div>
-                <p className="font-semibold text-white">info@fallspa.com</p>
+                <p className="font-semibold text-white">ocnwellness@gmail.com</p>
                 <p className="text-xs text-gray-500">Our Email</p>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="text-primary" size={18} />
               <div>
-                <p className="font-semibold text-white">+91 598 9874 987</p>
+                <p className="font-semibold text-white">+91 85888 98488</p>
                 <p className="text-xs text-gray-500">Call Now</p>
               </div>
             </div>
