@@ -16,42 +16,56 @@ const Contact = () => {
       {/* Contact Info Grid */}
       <section className="py-20 bg-gray-50">
         <div className="container-custom">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h4 className="text-secondary font-medium tracking-wider mb-2 text-sm uppercase">Get In Touch</h4>
+            <h2 className="text-4xl font-bold text-gray-900">We're Here For You</h2>
+            <p className="text-gray-500 mt-4">Have questions or want to book a session? Reach out through any of the channels below — we respond promptly!</p>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: <MapPin className="w-8 h-8 text-primary" />,
                 title: "Our Location",
-                details: ["3rd Floor, Metro Pillar No 81, C-57, Vikas Marg,", "above Yellow Chilli Restaurant, Nirman Vihar,", "Preet Vihar, New Delhi - 110092"]
+                details: ["3rd Floor, Metro Pillar No 81, C-57, Vikas Marg,", "above Yellow Chilli Restaurant, Nirman Vihar,", "Preet Vihar, New Delhi - 110092"],
+                sub: "Easily accessible from Nirman Vihar Metro Station (Blue Line)"
               },
               {
                 icon: <Phone className="w-8 h-8 text-primary" />,
                 title: "Call Us",
-                details: ["+91 85888 98488"]
+                details: ["+91 85888 98488"],
+                sub: "Available Mon–Sun, 9:30 AM to 9:45 PM. WhatsApp also available on this number."
               },
               {
                 icon: <Mail className="w-8 h-8 text-primary" />,
                 title: "Email Us",
-                details: ["ocnwellness@gmail.com"]
+                details: ["ocnwellness@gmail.com"],
+                sub: "Send us your queries or appointment requests. We'll reply within 24 hours."
               },
               {
                 icon: <Clock className="w-8 h-8 text-primary" />,
                 title: "Opening Hours",
-                details: ["Mon - Sun: 09:30 AM - 09:45 PM"]
+                details: ["Mon - Sun: 09:30 AM - 09:45 PM"],
+                sub: "Open all 7 days a week. Walk-ins are welcome — no prior booking needed!"
               }
             ].map((info, index) => (
-              <div key={index} className="bg-white p-8 rounded-2xl shadow-md text-center hover:shadow-lg transition-shadow border border-gray-100">
+              <div key={index} className="bg-white p-8 rounded-2xl shadow-md text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100 flex flex-col items-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   {info.icon}
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{info.title}</h3>
-                {info.details.map((line, i) => (
-                  <p key={i} className="text-gray-600">{line}</p>
-                ))}
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{info.title}</h3>
+                <div className="mb-4">
+                  {info.details.map((line, i) => (
+                    <p key={i} className="text-gray-800 font-semibold leading-snug">{line}</p>
+                  ))}
+                </div>
+                <p className="text-gray-500 text-sm leading-relaxed">{info.sub}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
+
 
       <Appointment />
 
