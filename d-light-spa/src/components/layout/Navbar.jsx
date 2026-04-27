@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Flower2, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Button from '../ui/Button';
+import Logo from '../ui/Logo';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,10 +45,8 @@ const Navbar = () => {
       isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'
     }`}>
       <div className="container-custom flex items-center justify-between">
-        {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 group">
-          <Flower2 className="text-primary group-hover:rotate-180 transition-transform duration-700" size={32} />
-          <span className="text-2xl font-serif font-bold text-gray-900 tracking-tight">Delight Spa<span className="text-primary">.</span></span>
+        <Link to="/" className="flex items-center group">
+          <Logo size="md" />
         </Link>
 
         {/* Desktop Links */}

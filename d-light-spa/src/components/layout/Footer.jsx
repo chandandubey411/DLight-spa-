@@ -1,6 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { Flower2, Mail, Phone, Clock, Send } from 'lucide-react';
+import { Mail, Phone, Clock, Send } from 'lucide-react';
+import Logo from '../ui/Logo';
 
 const Footer = () => {
   return (
@@ -10,9 +10,8 @@ const Footer = () => {
           
           {/* Brand Column */}
           <div>
-            <Link to="/" className="flex items-center gap-2 mb-6">
-              <Flower2 className="text-primary" size={32} />
-              <span className="text-2xl font-serif font-bold text-white tracking-tight">Delight Spa<span className="text-primary">.</span></span>
+            <Link to="/" className="flex items-center mb-6">
+              <Logo size="md" dark={true} />
             </Link>
             <p className="text-sm leading-relaxed mb-6">
               A premier destination in Preet Vihar for luxury wellness and relaxation. We provide holistic, rejuvenating treatments using only the finest natural products.
