@@ -81,7 +81,7 @@ const Footer = () => {
 
         {/* Bottom Footer */}
         <div className="border-t border-gray-800 pt-8 flex flex-col gap-6 text-sm">
-          <p className="text-center md:text-left">Copyright © {new Date().getFullYear()} <span className="text-primary font-medium">Delight Spa & Wellness</span>. All rights reserved.</p>
+          <p className="text-center md:text-left">Copyright © {new Date().getFullYear()} <span className="text-primary font-medium">DLight Spa</span>. All rights reserved.</p>
           
           <div className="flex flex-wrap justify-center md:justify-end gap-6">
             <div className="flex items-center gap-2">

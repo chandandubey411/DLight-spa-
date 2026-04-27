@@ -51,7 +51,7 @@ export const testimonials = [
     id: 2,
     name: "Rahul Verma",
     role: "Client",
-    text: "The deep tissue therapy gave me tremendous relief from my chronic back pain. The ambience at Delight Spa is very soothing and peaceful. Highly recommended for anyone in the area!",
+    text: "The deep tissue therapy gave me tremendous relief from my chronic back pain. The ambience at DLight Spa is very soothing and peaceful. Highly recommended for anyone in the area!",
     image: "https://plus.unsplash.com/premium_photo-1682092603230-1ce7cf8ca451?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwbWFufGVufDB8fDB8fHww"
   },
   {
@@ -65,7 +65,7 @@ export const testimonials = [
     id: 4,
     name: "Vikram Singh",
     role: "Corporate Client",
-    text: "After long stressful days at the office, Delight Spa is my go-to place. The hot towel massage is completely rejuvenating. Without a doubt, this is the best spa in Delhi!",
+    text: "After long stressful days at the office, DLight Spa is my go-to place. The hot towel massage is completely rejuvenating. Without a doubt, this is the best spa in Delhi!",
     image: "https://img.freepik.com/free-photo/closeup-young-hispanic-man-casuals-studio_662251-600.jpg"
   },
   {
@@ -86,14 +86,14 @@ export const testimonials = [
     id: 7,
     name: "Sunita Patel",
     role: "Client",
-    text: "We took the Couples Retreat package for our anniversary and it was absolutely perfect. The staff went above and beyond to make it special. Thank you so much, Delight Spa!",
+    text: "We took the Couples Retreat package for our anniversary and it was absolutely perfect. The staff went above and beyond to make it special. Thank you so much, DLight Spa!",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgiN0fivQ1JZJTEUbEpdN7ZVyiuVpgQwNmew&s"
   },
   {
     id: 8,
     name: "Rohit Chauhan",
     role: "Client",
-    text: "Finding a spa of this quality in the Nirman Vihar area was a pleasant surprise. Delight Spa exceeded all my expectations. The service, ambience, and value are all top-notch!",
+    text: "Finding a spa of this quality in the Nirman Vihar area was a pleasant surprise. DLight Spa exceeded all my expectations. The service, ambience, and value are all top-notch!",
     image: "https://images.unsplash.com/photo-1729157661483-ed21901ed892?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW5kaWFuJTIwbWFufGVufDB8fDB8fHww"
   }
 ];

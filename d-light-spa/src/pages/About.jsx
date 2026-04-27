@@ -10,7 +10,7 @@ const About = () => {
         title="About Us" 
         breadcrumb="About" 
         bgImage="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1920&q=80" 
-        description="Discover the story behind Delight Spa & Wellness. Learn about our passionate team, our philosophy of wellness, and our commitment to providing you with an unforgettable spa experience."
+        description="Discover the story behind DLight Spa. Learn about our passionate team, our philosophy of wellness, and our commitment to providing you with an unforgettable spa experience."
       />
       
       {/* Our Story Section */}
@@ -28,7 +28,7 @@ const About = () => {
               <h4 className="text-secondary font-medium tracking-wider mb-2">OUR STORY</h4>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-gray-900">A Sanctuary of Serenity Since 2019</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Founded with a vision to create an oasis of tranquility in the heart of the bustling city, Delight Spa & Wellness has been a premier destination for luxury wellness. We believe that true beauty and health emerge when the body, mind, and spirit are in perfect harmony.
+                Founded with a vision to create an oasis of tranquility in the heart of the bustling city, DLight Spa has been a premier destination for luxury wellness. We believe that true beauty and health emerge when the body, mind, and spirit are in perfect harmony.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
                 Our journey began with a simple philosophy: to provide holistic, rejuvenating treatments using only the finest natural and organic products. Today, we continue to uphold this commitment, offering tailored experiences that nurture your well-being.
@@ -64,7 +64,7 @@ const About = () => {
         <div className="container-custom">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h4 className="text-secondary font-medium tracking-wider mb-2">WHY CHOOSE US</h4>
-            <h2 className="text-4xl font-bold text-gray-900">Experience the Delight Spa & Wellness Difference</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Experience the DLight Spa Difference</h2>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -80,7 +80,7 @@ const Contact = () => {
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"
           className="absolute inset-0 grayscale contrast-125 opacity-80"
-          title="Delight Spa & Wellness Location"
+          title="DLight Spa Location"
         ></iframe>
       </section>
     </>

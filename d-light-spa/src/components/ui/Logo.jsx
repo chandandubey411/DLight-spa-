@@ -99,7 +99,7 @@ const Logo = ({ size = 'md', dark = false }) => {
             letterSpacing: '-0.02em',
           }}
         >
-          Delight<span style={{ color: '#a855f7' }}>.</span>
+          DLight<span style={{ color: '#a855f7' }}>.</span>
         </span>
         <span
           style={{
